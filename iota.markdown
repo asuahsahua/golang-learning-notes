@@ -74,4 +74,4 @@ results in 2, 2, 2
 
 This is a bit confusing, hm!
 
-Thinking about it, this actually makes perfect sense. Each undefined const in a block inherits the previous value, but iota (greek letter for i) is the [b]i[/b]ndex of the current const. iota is inherited, so it increments like the above. Okay.
+Thinking about it, this actually makes perfect sense. Each undefined const in a block inherits the previous value, but iota (greek letter for i) is the __i__ndex of the current const. iota is inherited, so it increments like the above. Okay.
